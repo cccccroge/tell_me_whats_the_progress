@@ -1,5 +1,2 @@
-# executable
-main
-
-# for mac
-/main.dSYM
+node_modules/
+config.json
