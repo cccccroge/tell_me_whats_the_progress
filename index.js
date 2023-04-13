@@ -47,6 +47,7 @@ client.on('reportTheImage', async () => {
     const cmd = 'gnome-screenshot -f ./test.png';
     exec(cmd, (error, stdout, stderr) => {});
     textChannel.send({ files: ['test.png'] });
+    const abc = '123';
 });
 
 
